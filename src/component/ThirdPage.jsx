@@ -123,7 +123,12 @@ const styles ={
 )
 
 
-: <h2>Loading ... </h2>}
+:<div style={styles.container}>
+<h4 style={{color:"darkblue"}}>Consulta de saldo</h4>
+<h1 style={{color:"darkblue"}}>Seleccione la cuenta a consultar</h1>
+<div style={styles.optionsContainer}></div>
+
+</div>}
 
 </>
 

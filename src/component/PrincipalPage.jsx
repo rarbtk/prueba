@@ -109,7 +109,7 @@ empty:{
         })
         
     }
-    <div style={styles.moreOptions} href="google.com">
+    <div style={styles.moreOptions}>
     <Link to="/second" style={{ color: '#FFF', textDecoration:"none" }}><h2 >Mas opciones {" >>"}</h2>
     </Link> 
     
@@ -124,9 +124,15 @@ empty:{
 
 
 : 
-<div style={styles.empty}>
-<h2>Loading ... </h2>
-</div>
+<div style={styles.container}>
+    <h4 style={{color:"darkblue"}}>Consulta de saldo</h4>
+    <h1 style={{color:"darkblue"}}>Seleccione la cuenta a consultar</h1>
+    <div style={styles.optionsContainer}></div>
+   
+    </div>
+   
+
+
 }
 
 </>

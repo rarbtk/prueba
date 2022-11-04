@@ -85,7 +85,12 @@ const styles ={
 )
 
 
-: <h1>Loading ... </h1>}
+: <div style={styles.container}>
+<h4>Consulta de saldo</h4>
+<h1 >Este es tu saldo actual</h1>
+<div style={styles.optionsContainer}></div>
+
+</div>}
 
 </>
 
